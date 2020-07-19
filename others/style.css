@@ -1,0 +1,169 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1350px;
+}
+
+img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    max-height: 300px;
+    margin-top: 2.4em;
+}
+
+.pix {
+    width: 47%;
+}
+
+p {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Playfair Display Black" serif;
+    margin-top: 0em;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Roboto Light" sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: .3em;
+}
+
+h4 {
+    font-size: 36px;
+    color: #824936;
+    font-family: "Playfair Display Black" serif;
+    margin-bottom: .5em;
+}
+
+.father {
+    margin: 0 auto;
+    max-width: 1350px;
+    width: 100%;
+    min-height: 660px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F3EED9;
+}
+
+.title {
+    width: 50%;
+}
+
+.head {
+    text-align: center;
+}
+
+.head-2 {
+    color: white;
+}
+
+.mother {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 450px;
+    padding: 2em 0;
+}
+
+.para {
+    color: #222C2A;
+}
+
+.mother-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+    width: 80%;
+    max-width: 1328px;
+}
+
+.daughter {
+    background-color: #222C2A;
+}
+
+.son {
+    background-color: #824936;
+}
+
+@media screen and (max-width: 896px) {
+    img {
+        max-width: 700px;
+        max-height: 300px;
+        margin-top: 1em;
+    }
+    
+    .pix {
+        width: 100%;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+    
+    h4 {
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: .5em;
+    }
+    
+    .father {
+        min-height: 510px;
+    }
+    
+    .title {
+        width: 80%;
+    }
+    
+    .mother {
+        margin: 0 auto;
+        width: 100%;
+        min-height: 250px;
+        padding: 1em 0;
+    }
+    
+    .mother-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1328px;
+    }
+
+    .invert{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
